@@ -1,0 +1,256 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* header and navigation style */
+
+
+
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* make max space between what is in nav(2 thing title and nav */
+    margin: 50px 200px;
+    background-color: #FFF8F3;
+
+}
+
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+    align-items: center;
+
+
+}
+
+.r-color {
+    color: #FD6E0A;
+}
+
+
+
+
+
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+
+
+}
+
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+
+
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    width: 115px;
+    height: 45px;
+    border: 0;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+
+
+.banner {
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner img {
+    width: 584px;
+    height: 676px;
+    margin-left: 100px;
+
+}
+
+.developer-img {
+    display: flex;
+    text-align: left;
+}
+
+
+
+.hi {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 5px;
+
+
+}
+
+.hary {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+.download-btn {
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+}
+
+.contact-btn {
+    width: 150px;
+    height: 50px;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+}
+
+
+.header {
+    background-color: #FFF8F3;
+    margin: 0px;
+    padding: 1px;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    width: 1340px;
+    height: 837px;
+    
+
+}
+
+
+
+
+/* about section  */
+
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    
+    
+
+}
+
+.about {
+    text-align: center;
+    padding: 50px;
+    margin:130px 100px ;
+    background: #FFF8F3;
+    padding: 150px;
+    
+
+}
+
+.sec-title {
+    
+
+}
+
+.sec-description {
+   
+
+}
+
+
+.do{
+background-color: #FD6E0A;
+max-width: 1140px;
+margin: 0 auto;
+text-align: center;
+
+margin:10px 180px ;
+background-color:#FD6E0A ;
+
+
+
+}
+
+.ido-details {
+background-color: #FD6E0A;
+
+margin: 0 auto;
+text-align: center;
+padding: 20px;
+margin:10px 180px ;
+background-color:#FD6E0A ;
+
+}
+
+
+
+
+
+.skills {
+    text-align: center;
+    margin: 10px 90px;
+    display: flex;
+
+}
+
+.js {
+    background-color: #e7e7e7;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding:50px ;
+    margin-right: 20px;
+    margin-left: 40px;
+
+}
+
+.react {
+    
+    background: #e0dede; 
+    height: 100px;
+    width: 100px;
+    padding:50px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.node{
+    background: #e0dede; 
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding:50px ;
+    margin-right: 20px;
+
+}
+
+.mdb {
+    background: #e0dede; 
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding:50px ;
+    margin-right: 20px;
+
+}
